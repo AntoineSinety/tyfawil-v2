@@ -1,0 +1,49 @@
+/* src/components/MovieDetail.css */
+.movie-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-buttons a, .navigation-buttons button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .navigation-buttons a:hover, .navigation-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .movie-detail h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .movie-detail p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  iframe {
+    margin: 20px 0;
+    max-width: 100%;
+  }
+  
